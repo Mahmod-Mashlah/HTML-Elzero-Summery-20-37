@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Elzero</title>
+</head>
+
+<body>
+
+    <wbr action="./index2.php" method="GET" novalidate target="_blank">
+
+        <div>
+            <label for="">username</label>
+            <input type="text" required placeholder="username" value="" name="username" min="3" max="50" size="10">
+        </div> <br>
+
+        <div>
+            <label for="">email</label>
+            <input type="email" required placeholder="a@example.com" value="" name="email" autofocus>
+        </div> <br>
+
+        <div>
+            <label for="">password</label>
+            <input type="password" required placeholder="password" value="" name="password" minlength="3" maxlength="5">
+        </div> <br>
+
+        <div>
+            <label for="number">number</label>
+            <input type="number" name="range" id="number" value="5" placeholder="number" min="-5" max="10" step="1.1">
+
+        </div> <br>
+
+        <div>
+            <input type="submit" value="Save (submit)">
+        </div> <br>
+
+        <div>
+            <input type="hidden" value="Hidden">
+        </div> <br>
+
+        <div>
+            <input type="reset" value="Reset">
+        </div> <br>
+
+        <div>
+            <input type="color" value="" name="color">
+        </div> <br>
+
+        <div>
+            <label for="">Range</label>
+            <input type="range" name="range" id="range" value="5" min="0" max="10" step="1">
+        </div> <br>
+
+        <div>
+            <label for="">Read only </label>
+            <input type="text" name="readonly" id="readonly" value="Read only" readonly>
+        </div> <br>
+
+        <div>
+            <label for="">Disable </label><br>
+            <input type="text" name="disable" id="disable" value="disable (will not sent/passed in the query string) "
+                disabled>
+        </div> <br>
+
+        <div>
+            <label for="">List </label><br>
+            <input list="programming" name="programming">
+            <datalist id="programming">
+                <option value="php">php</option>
+                <option value="c++">c++</option>
+                <option value="java">java</option>
+                <option value="python">python</option>
+            </datalist>
+        </div> <br>
+
+        <div>
+            <label for="book"> (Select) Choose Book</label>
+            <select name="book" id="book">
+                <optgroup label="Group1">
+                    <option value="1">book 1</option>
+                    <option value="2" selected>book 2</option>
+                </optgroup>
+                <optgroup label="Group2">
+                    <option value="3">book 3</option>
+                    <option value="4">book 4</option>
+                </optgroup>
+            </select>
+        </div> <br><br>
+
+        <div>
+            <label for="bookssss"> (Select) Choose Book (Multiple)</label>
+            <select name="bookssss" id="bookssss" multiple>
+                <optgroup label="Group1">
+                    <option value="1">book 1</option>
+                    <option value="2">book 2</option>
+                </optgroup>
+                <optgroup label="Group2">
+                    <option value="3">book 3</option>
+                    <option value="4">book 4</option>
+                </optgroup>
+            </select>
+        </div> <br><br>
+
+        <div>
+            <label for="">Radio</label> <br>
+
+            <input type="radio" name="os" id="windows" checked>
+            <label for="windows">windows</label>
+            <input type="radio" name="os" id="linux">
+            <label for="linux">linux</label>
+            <input type="radio" name="os" id="mac">
+            <label for="mac">mac</label> <br> <br>
+        </div>
+
+
+        <div>
+            <label for="">Checkbox</label> <br>
+
+            <input type="checkbox" name="windows" id="windows1" checked>
+            <label for="windows1">windows</label>
+            <input type="checkbox" name="linux" id="linux1">
+            <label for="linux1">linux</label>
+            <input type="checkbox" name="mac" id="mac1">
+            <label for="mac1">mac</label>
+        </div><br><br>
+
+
+        <div>
+
+            <label for="textarea">TextArea :</label> <br><br>
+            <textarea name="textarea1" id="textarea" cols="50" rows="2" placeholder="textarea"></textarea>
+
+        </div> <br><br>
+
+        <div>
+            <label for="file">file : </label>
+            <input type="file" name="file" id="file">
+        </div> <br><br>
+
+        <div>
+            <label for="search">search : </label>
+            <input type="search" name="search" id="search">
+        </div><br><br>
+
+        <div>
+            <label for="url">url : </label>
+            <input type="url" name="url" id="url">
+        </div><br><br>
+        
+        <div>
+            <label for="date">date : </label>
+            <input type="date" name="date" id="date">
+        </div><br><br>
+        
+        <div>
+            <label for="time">time : </label>
+            <input type="time" name="time" id="time">
+        </div><br><br>
+        
+        <div>
+            <label for="week">week : </label>
+            <input type="week" name="week" id="week">
+        </div><br><br>
+        
+        <div>
+            <label for="month">month : </label>
+            <input type="month" name="month" id="month">
+        </div><br><br>
+
+        <input type="button" value="">t
+        <button></button>
+        <pre></pre>
+        <wbr></wbr>
+        <bdi></bdi>
+        
+
+    </form>
+
+</body>
+
+</html>
